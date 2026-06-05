@@ -1,2 +1,2 @@
 # Repo map
-- oulu-stochastic-dsp-lab -> DSP
+- gunnchos-stochastic-dsp-lab -> DSP
