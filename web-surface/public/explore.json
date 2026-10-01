@@ -64,5 +64,6 @@
   "methods": "Methods are the badge file results/wireless_engineering_skill_badges.json and the open items in results/missing_evidence_todos.md. Badge values are partial. This dashboard does not score a university program.",
   "cards": [],
   "runtime_mode": "PRECOMPUTED",
-  "runtime_boot": false
+  "runtime_boot": false,
+  "evidence_class": "REFERENCE_IMPLEMENTATION"
 }
