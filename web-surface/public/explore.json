@@ -1,0 +1,40 @@
+{
+  "schema": "gunnchos.surfacekit.v2",
+  "measured_topology": false,
+  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    }
+  ],
+  "rows": [
+    {
+      "source": "README.md",
+      "scenario_id": "Overview",
+      "site_id": "Oulu preparation",
+      "ethical_framing": "# gunnchOS Wireless Engineering Readiness Dashboard > This repo is part of the **gunnchOS wireless engineering spine**: hands-on labs that strengthen the technical foundation behind 7GC, AI-RAN, RF, DSP, MIMO, measurement, and **6G PhD readiness** for target wireless communications engineering programs. Not affiliated with any university. Aggregates portfolio evidence. Not Oulu affiliated."
+    }
+  ],
+  "sources": [],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "# gunnchOS Wireless Engineering Readiness Dashboard > This repo is part of the **gunnchOS wireless engineering spine**: hands-on labs that strengthen the technical foundation behind 7GC, AI-RAN, RF, DSP, MIMO, measurement, and **6G PhD readiness** for target wireless communications engineering programs. Not affiliated with any university. Aggregates portfolio evidence. Not Oulu affiliated."
+    }
+  ],
+  "artifacts": [
+    "results/missing_evidence_todos.md",
+    "results/oulu_wce_readiness_matrix.md",
+    "results/oulu_wce_skill_badges.json",
+    "results/repo_to_skill_map.md",
+    "results/wireless_engineering_readiness_matrix.md",
+    "results/wireless_engineering_skill_badges.json",
+    "docs/TARGET_PROGRAM_ALIGNMENT.md"
+  ],
+  "methods": "",
+  "cards": [],
+  "runtime_mode": "PRECOMPUTED",
+  "runtime_boot": false
+}
