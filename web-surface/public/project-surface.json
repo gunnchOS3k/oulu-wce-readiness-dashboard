@@ -1,0 +1,21 @@
+{
+  "repo": "oulu-wce-readiness-dashboard",
+  "productName": "WCE readiness dashboard",
+  "family": "Oulu preparation",
+  "classification": "STATIC_RESEARCH_SURFACE_WORKER",
+  "acceptedSha": "eb09ebeb955f9d7ba4c4cf2b5c08f2162fa1bcf0",
+  "status": "STAGING_WORKER",
+  "summary": "Independent readiness notes for wireless communications engineering preparation.",
+  "capabilities": [
+    "Read readiness boundaries",
+    "Open the source repository"
+  ],
+  "limitations": [
+    "No Oulu affiliation or admission status is claimed",
+    "Not an official readiness certificate"
+  ],
+  "sourceUrl": "https://github.com/gunnchOS3k/oulu-wce-readiness-dashboard",
+  "returnUrlEnv": "GUNNCHOS_PORTAL_URL",
+  "returnUrl": "https://gunnchos-site.gunnchos-finds.workers.dev",
+  "workerName": "gunnchos-oulu-wce"
+}
