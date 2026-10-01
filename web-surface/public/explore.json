@@ -1,22 +1,50 @@
 {
   "schema": "gunnchos.surfacekit.v2",
   "measured_topology": false,
-  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "diagram_note": "Readiness badges copied from results/wireless_engineering_skill_badges.json. Values are partial. Missing-evidence lines are still open. This is not a measured radio topology and not a university score.",
   "nodes": [
     {
-      "id": "overview",
-      "label": "Overview"
+      "id": "dsp",
+      "label": "DSP badge"
+    },
+    {
+      "id": "mimo",
+      "label": "MIMO badge"
+    },
+    {
+      "id": "missing",
+      "label": "Missing evidence"
     }
   ],
   "rows": [
     {
-      "source": "README.md",
-      "scenario_id": "Overview",
-      "site_id": "Oulu preparation",
-      "ethical_framing": "# gunnchOS Wireless Engineering Readiness Dashboard > This repo is part of the **gunnchOS wireless engineering spine**: hands-on labs that strengthen the technical foundation behind 7GC, AI-RAN, RF, DSP, MIMO, measurement, and **6G PhD readiness** for target wireless communications engineering programs. Not affiliated with any university. Aggregates portfolio evidence. Not Oulu affiliated."
+      "source": "results/wireless_engineering_skill_badges.json",
+      "scenario_id": "dsp badge",
+      "evidence_class": "readiness_record",
+      "ethical_framing": "wireless_engineering_skill_badges.json sets dsp to partial.",
+      "skill": "dsp",
+      "badge_status": "partial"
+    },
+    {
+      "source": "results/wireless_engineering_skill_badges.json",
+      "scenario_id": "mimo badge",
+      "evidence_class": "readiness_record",
+      "ethical_framing": "wireless_engineering_skill_badges.json sets mimo to partial.",
+      "skill": "mimo",
+      "badge_status": "partial"
+    },
+    {
+      "source": "results/missing_evidence_todos.md",
+      "scenario_id": "Missing evidence",
+      "evidence_class": "repo_result_text",
+      "ethical_framing": "- [ ] DeepMIMO benchmark - [ ] Field measurements",
+      "open_items": "- [ ] DeepMIMO benchmark - [ ] Field measurements"
     }
   ],
-  "sources": [],
+  "sources": [
+    "results/wireless_engineering_skill_badges.json",
+    "results/missing_evidence_todos.md"
+  ],
   "sections": [
     {
       "id": "overview",
@@ -33,7 +61,7 @@
     "results/wireless_engineering_skill_badges.json",
     "docs/TARGET_PROGRAM_ALIGNMENT.md"
   ],
-  "methods": "",
+  "methods": "Methods are the badge file results/wireless_engineering_skill_badges.json and the open items in results/missing_evidence_todos.md. Badge values are partial. This dashboard does not score a university program.",
   "cards": [],
   "runtime_mode": "PRECOMPUTED",
   "runtime_boot": false
